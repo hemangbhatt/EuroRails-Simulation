@@ -47,3 +47,4 @@ Commodity::COLOR Commodity::getColor()
 {
     return m_eColor;
 }
+
