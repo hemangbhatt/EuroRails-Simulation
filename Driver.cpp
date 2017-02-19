@@ -30,13 +30,6 @@ void printGreeting(std::ofstream& fileStream)
 
 int main(int argc, const char * argv[])
 {
-    
-    
-    
-  //    for (int i = 0; i < argc; i++)
-  //  {
-  //	std::cout << "argv[" << i << "] is " << argv[i] << std::endl; 
-  //  }    
 
   // Store value from command Line Argument
   std::string cardFileName = argv[1];
@@ -56,13 +49,6 @@ int main(int argc, const char * argv[])
   else if (strategy == 5) { temp = Player::COLOR_BLACK;}
   else if (strategy == 6) { temp = Player::COLOR_GREEN;}
   else if (strategy == 7) { temp = Player::COLOR_BROWN;}
-
-
-
-
-    //std::cout << cardFileName << " " << commoFileName <<  " "
-    //	      << numPlayers << " " << strategy << std::endl;
-
 
 
     // Create Game, Print Greetings, Draw Pile
